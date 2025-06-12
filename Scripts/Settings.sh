@@ -45,10 +45,7 @@ cp -r ../files ./
 #echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config
 #echo "CONFIG_PACKAGE_luci-theme-$WRT_THEME=y" >> ./.config
 #echo "CONFIG_PACKAGE_luci-app-$WRT_THEME-config=y" >> ./.config
-#增加smartdns
-sed -i 's/CONFIG_PACKAGE_smartdns=n/CONFIG_PACKAGE_smartdns=y/g' .config
-sed -i 's/CONFIG_PACKAGE_luci-app-smartdns=n/CONFIG_PACKAGE_luci-app-smartdns=y/g' .config
-sed -i 's/CONFIG_PACKAGE_smartdns-ui=n/CONFIG_PACKAGE_smartdns-ui=y/g' .config
+
 
 
 
