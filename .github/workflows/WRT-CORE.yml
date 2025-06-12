@@ -162,8 +162,8 @@ jobs:
       
       - name: Run addsmartdns.sh
         run: |
-          chmod +x add_asmartdns.sh
-          ./add_asmartdns.sh
+          chmod +x add_smartdns.sh
+          ./add_smartdns.sh
 
       - name: Custom Packages
         run: |
