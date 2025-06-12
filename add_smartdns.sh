@@ -20,5 +20,5 @@ rmdir $WORKINGDIR/luci-app-smartdns-${LUCIBRANCH}
 rm $WORKINGDIR/${LUCIBRANCH}.zip
 
 #./scripts/feeds install -a
-cd /home/runner/work/OpenWRT-jd1800/OpenWRT-jd1800/wrt/
-make menuconfig
+#cd /home/runner/work/OpenWRT-jd1800/OpenWRT-jd1800/wrt/
+#make menuconfig

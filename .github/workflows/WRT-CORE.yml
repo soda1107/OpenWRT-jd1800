@@ -152,6 +152,10 @@ jobs:
           fi            
 
 
+      - name: Run addsmartdns.sh
+        run: |
+          chmod +x add_smartdns.sh
+          ./add_smartdns.sh
 
       - name: Update Feeds
         run: |
@@ -159,11 +163,7 @@ jobs:
 
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-      
-      - name: Run addsmartdns.sh
-        run: |
-          chmod +x add_smartdns.sh
-          ./add_smartdns.sh
+
 
       - name: Custom Packages
         run: |
